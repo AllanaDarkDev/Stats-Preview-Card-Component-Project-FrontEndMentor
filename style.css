@@ -96,6 +96,8 @@ main {
         background-image: url("images/image-header-desktop.jpg");
         height: 300px;
         border-radius: 0 10px 10px 0;
+        height: 400px;
+        width: 500px;
     }
 
     main {
@@ -106,19 +108,24 @@ main {
         margin: 0;
         width: 400px;
         border-radius: 10px 0 0 10px;
+        height: 400px;
+        width: 500px;
     }
 
     .top h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
         text-align: start;
+        margin-top: 50px;
         margin-left: 20px;
         margin-right: 10px;
     }
 
     .middle {
         text-align: start;
+        line-height: 1.5;
         margin-left: 40px;
-        font-size: 10px;
+        margin-bottom: 60px;
+        font-size: 30px;
     }
 
     .bottom {
@@ -126,6 +133,7 @@ main {
         justify-content: space-evenly;
         text-align: start;
         margin-bottom: 40px;
+        margin-right: 90px;
         font-size: 12px;
     }
 }
